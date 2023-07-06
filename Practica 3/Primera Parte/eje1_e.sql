@@ -1,0 +1,2 @@
+select producto.cod_producto, descripcion from factura join itemfactura on (factura.nro_factura = itemfactura.nro_factura)
+join producto on (itemfactura.cod_producto = producto.cod_producto) where cantidad > 3

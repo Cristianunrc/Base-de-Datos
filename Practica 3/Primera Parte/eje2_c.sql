@@ -1,0 +1,1 @@
+select distinct nombre_club from competencia natural join participacion natural join club where categoria = 1  

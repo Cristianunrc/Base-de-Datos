@@ -1,0 +1,1 @@
+select cliente.nro_cliente, apellido, nombre, nro_factura from cliente left join factura on cliente.nro_cliente = factura.nro_cliente
